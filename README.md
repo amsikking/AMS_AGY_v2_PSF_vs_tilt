@@ -12,6 +12,6 @@ Data showing how the psf from an AMS-AGY v2.0 objective changes with tilt
 - **'p' polarized light refers to light that is polarized in the plane of the table** and therefore in the plane of the tilt of the AMS-AGY objective.
 - The 'tilt' of the AMS-AGY objective (and corresponding microscope) was done 'by eye' using a digital protractor (see setup photo). It is estimated that the error on this operation was on the order of 1 degree. For each tilt angle the position of the AMS-AGY microscope (as a whole) was realigned to put the laser focus back to the center of the camera chip (no other optics adjusted).
 - A 20um piezo (Thorlabs PAS005) was used to take 'z-stacks' of the psf produced by the Nikon objective by moving a large stage (Thorlabs LNR50M) under the AMS-AGY objective (nominally aligned to its optic axis). For each acquisition the **AMS-AGY objective was moved from furthest separation** (about -10um from focus) **to closest separation** (about +10um beyond focus).
-- For the acquisition details see the '.py' file in the data folder.
+- For each tilt and polarisation the acquisition was repeated 10 times to help smooth out noise from table vibration and laser fluctuations in post processing. For acquisition details see the '.py' file in the data folder.
 
 Note: the raw data was too large for the repository so a simple 'crop_roi.py' routine was applied (see data folder).
