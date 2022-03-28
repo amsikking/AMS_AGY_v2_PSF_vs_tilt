@@ -1,5 +1,5 @@
 # AMS_AGY_v2_psf_vs_tilt
-Data showing how the (optical axis) psf from an AMS-AGY v2.0 objective changes with tilt
+Data showing how the psf from an AMS-AGY v2.0 objective changes with tilt
 ## Quick start:
 - Download the whole repository (~400MB) and check out the 'data' folder. Each file is for either 'p' or 's' polarised light at a given tilt angle from 0-55deg.
 - For estimates on transmission check out the included '.png' files, or run the associated '.py' files that generate the plots from the data folder.
