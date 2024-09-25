@@ -1,5 +1,5 @@
 # AMS_AGY_v2_psf_vs_tilt
-Data showing how the psf from an AMS-AGY v2.0 objective changes with tilt
+Data showing how the psf from an AMS-AGY v2.0 objective changes with tilt.
 ## Quick start:
 - Download the whole repository (~400MB) and check out the 'data' folder. Each file is for either **'p' or 's' polarized light** at a given tilt angle **from 0-55deg**. Optionally run 'make_single_data_files.py' to view all the data in two 5D files.
 - The data shows how the **image of a psf** produced by a Nikon objective **evolves as the AMS-AGY objective** (and associated microscope) **tilts** away from the original optical axis.
